@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p::after { 
+  content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    display: block;
+    background-color: black;
+}
+</style>
+</head>
+<body>
+
+<p>My name is Donald</p>
+
+</body>
+</html>
